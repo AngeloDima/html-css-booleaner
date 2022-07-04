@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px 0px 0px 4px;
     padding: 0;
 }
 
@@ -35,18 +35,18 @@
     color: #20a9e5;
 }
 
-#Data-header{
+.p-piccolo-grigio{
     font-size: 1em;
     color: grey;
 }
 
 /* -----------------------Header end------------- */
-
+/* -----------------------main--------------- */
 .Allineatore-testi{
     width: 1000px;
     color: rgba(0, 0, 0, 0.856);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .giallo{
@@ -57,7 +57,7 @@
 .Centro-scritte-ul{
     margin-left: 20px;
     color: rgba(0, 0, 0, 0.856);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------table--------------- */
@@ -90,8 +90,23 @@ table tr td{
 }
 
 table{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------table end--------------- */
+/* ------------------------main end---------- */
+
+
+#p-grosso{
+    font-size: 1.4rem;
+    color: grey;
+    font-weight: bolder;
+}
+
+
+.img-footer img{ 
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+}
 
