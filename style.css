@@ -12,7 +12,7 @@
     width: 1920px;
     height: 170px;
     background-image: url(img/pattern.png);
-    background-color: rgb(0, 119, 255);
+    background-color: #4ea0ff;
 }
 
 .sbarra img{
@@ -32,7 +32,7 @@
 }
 
 #Colorp{
-    color: aqua;
+    color: #20a9e5;
 }
 
 #Data-header{
@@ -42,14 +42,14 @@
 
 /* -----------------------Header end------------- */
 
-.Centro-scritte{
-    width: 1080px;
+.Allineatore-testi{
+    width: 1000px;
     color: rgba(0, 0, 0, 0.856);
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#giallo{
+.giallo{
     background-color: yellow;
 }
 
@@ -63,10 +63,35 @@
 /* -------------------------table--------------- */
 
 table tr th{
-    background-color: rgb(0, 247, 255);
+    background-color: #20a9e5;
     width: 240px;
+    text-align: left;
 }
 
 #lunga{
-    width: 480px;
+    width: 520px;
 }
+
+
+
+ tr td{
+    background-color: #b1e5f2;
+    
+    
+}
+
+.bianco td{
+    background-color: white;
+}
+
+table tr td{
+    padding: 20px 5px;
+    text-align: left;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+/* -------------------------table end--------------- */
+
