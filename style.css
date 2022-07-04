@@ -5,9 +5,8 @@
 }
 
 
-
+/* --------------------------------Header------------------- */
 header{
-    height: 175px;
     background-image: url(img/pattern.png);
     background-color: rgb(91 175 255);
 }
@@ -20,3 +19,32 @@ header{
     margin-top: 40%;
     margin-left: 10%;
 }
+
+/* --------------------------------Header end------------------- */
+/* --------------------------------Main------------------- */
+
+#Titolo{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+#Sotto-al-titolo{
+    color: rgba(5, 5, 5, 0.507);
+    font-size: 2.1rem;
+}
+
+#paragrafo-color{
+    color: rgb(0, 183, 255)
+}
+
+#Data-p{
+    color: rgba(5, 5, 5, 0.507);
+    font-size: 1.3rem;
+
+}
+
+
+
+
+
+/* --------------------------------Main end------------------- */
