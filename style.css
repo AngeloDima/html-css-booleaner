@@ -52,3 +52,21 @@
 #giallo{
     background-color: yellow;
 }
+
+
+.Centro-scritte-ul{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.856);
+    margin-bottom: 20px;
+}
+
+/* -------------------------table--------------- */
+
+table tr th{
+    background-color: rgb(0, 247, 255);
+    width: 240px;
+}
+
+#lunga{
+    width: 480px;
+}
