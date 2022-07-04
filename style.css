@@ -1,50 +1,43 @@
 *{
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 
-/* --------------------------------Header------------------- */
-header{
+
+/* -----------------------Header------------- */
+
+.sbarra{
+    width: 1920px;
+    height: 170px;
     background-image: url(img/pattern.png);
-    background-color: rgb(91 175 255);
+    background-color: rgb(0, 119, 255);
 }
 
-#Logo{
-    width: 240px;
+.sbarra img{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 25px;
 }
-
-#Logo img{
-    margin-top: 40%;
-    margin-left: 10%;
-}
-
-/* --------------------------------Header end------------------- */
-/* --------------------------------Main------------------- */
 
 #Titolo{
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.7em;
+    font-weight: 800;
 }
 
 #Sotto-al-titolo{
-    color: rgba(5, 5, 5, 0.507);
-    font-size: 1.2rem;
+    font-size: 1.3em;
+    color: grey;
 }
 
-#paragrafo-color{
-    color: rgb(0, 183, 255)
+#Colorp{
+    color: aqua;
 }
 
-#Data-p{
-    color: rgba(5, 5, 5, 0.507);
-    font-size: 1rem;
-
+#Data-header{
+    font-size: 1em;
+    color: grey;
 }
 
-
-
-
-
-/* --------------------------------Main end------------------- */
+/* -----------------------Header end------------- */
